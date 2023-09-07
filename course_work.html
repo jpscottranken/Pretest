@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Work</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create three unequal columns that floats next to each other */
+    .column {
+      float: left;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+      font-size: .51rem;
+    }
+    
+    .left, .right, .middle {
+      width: 33.33333%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <img src="images/logo.png" id="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="course_work.html">Course Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--  This is the Course Work page  -->
+  <main>
+    <div id="wrapper">
+      <h1>Course Work</h1>
+
+      <div class="row">
+        <div class="column left" style="background-color:#fff;">
+          <p><img src="images/websiteExample01.jpg"><br>
+          Website 1</p>
+        </div>
+        <div class="column middle" style="background-color: antiquewhite;">
+          <p><img src="images/websiteExample02.jpg"><br>
+          Website 2</p>
+        </div>
+        <div class="column right" style="background-color:#fff;">
+          <p><img src="images/websiteExample03.jpg"><br>
+          Website 3</p>
+       </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 - Jeff Scott</p>
+  </footer>
+</body>
+</html>

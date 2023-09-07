@@ -1,0 +1,87 @@
+/*  HOT #1 Style Sheet  */
+body {
+  background: cornsilk;
+  color: royalblue
+}
+
+#logo {
+  float: left;
+}
+
+nav {
+  background-color: lightblue;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  list-style: none;
+  font-size: 3rem;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+nav ul li a:link
+{
+  color:pink;
+}
+
+nav ul li a:visited
+{
+  color:pink;
+}
+
+nav ul li a:hover
+{
+  color:pink;
+}
+
+nav ul li a:active
+{
+  color:pink;
+}
+
+#wrapper {
+  clear: both;
+  text-align: center;
+}
+
+.jumbotron {
+  background: navy;
+}
+
+.jumbotron p {
+  color: antiquewhite;
+  text-align: center;
+}
+
+div p {
+  text-align: left;
+  font-size: 2rem;
+  color: black;
+}
+
+#geolink p {
+  text-align: center;
+}
+
+#normal {
+  list-style-type: square;
+  margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+}
