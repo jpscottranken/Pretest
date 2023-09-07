@@ -56,7 +56,8 @@ nav ul li a:active
   background: navy;
 }
 
-.jumbotron p {
+.jumbotron p,
+.jumbotron h1 {
   color: antiquewhite;
   text-align: center;
 }
@@ -84,4 +85,9 @@ footer {
     background-color: lightblue;
     color: black;
     text-align: center;
+    margin-top: 2rem;
+}
+
+footer p {
+  font-size: 60%;
 }
